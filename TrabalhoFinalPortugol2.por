@@ -504,7 +504,7 @@ programa
 							para(inteiro k=0; k < tp.cadeia_para_inteiro(user[1][nmrCartelaUser - 1], 10) + j; k++){
 								se(user[i+1][k] == resposta ou tp.cadeia_para_inteiro(resposta, 10) < 1 ou tp.cadeia_para_inteiro(resposta, 10) > jogo[3]){
 									limpa()
-									escreva("Valor não permitido")
+									escreva("Valor não permitido\n\n")
 									auxilioAuxiliar = auxilio
 									auxilio--
 									j--
